@@ -4,17 +4,21 @@
 	<meta charset="UTF-8">
 	<title>Shopping</title>
 	<link rel="stylesheet" href="shopping_css.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 	<div class="container">
-		<textarea name="" id="shoplist" cols="30" rows="10"></textarea>
-		<br>
+		<div class="main-menu textarea">
+			<textarea name="" id="shoplist"></textarea>
+		</div>
 		<div class="nav-bar">
 			<a href="#" id="addbutton" class="main-menu">Добавить</a>
 			<a href="#" id="hidebutton" class="main-menu">Скрыть</a>
 			<a href="#" id="deletebutton" class="main-menu">Очистить</a>
 		</div>
+		<div>
 		<ul id="unfinished-tasks"></ul>
+		</div>
 	</div>
 	<script src="shopping_js.js"></script>
 </body>

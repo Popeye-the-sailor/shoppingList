@@ -13,24 +13,55 @@ ul {
 	list-style: none;
 }
 
-.nav-bar {
-	text-align: center;
-}
-
-.main-menu {
-	display: inline-block;
-}
-
 .bought {
 	text-decoration: line-through;
 }
 
 .container {
-	width: 80%;
+	max-width: 80%;
 	margin: 0 auto;
 	text-align: center;
 }
 
 .hidden {
 	display: none;
+}
+
+.main-menu {
+	width : 100%;
+	margin-bottom: 10px;
+}
+
+textarea {
+	display: block;
+	width : 80%;
+	margin: 0 auto;
+	height: auto;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: 1em;	
+}
+
+.nav-bar a {
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 2px 5px;
+}
+
+.nav-bar a:hover{
+	background: #f0f0f0;
+}
+
+/* Smartphones (горизонтальная) ----------- */
+@media only screen and (min-width: 321px) {
+	
+}
+
+/* Smartphones (вертикальная) ----------- */
+@media only screen and (max-width: 320px) {
+	.nav-bar a {
+		display: block;	
+		width: 100%;
+	}
 }
